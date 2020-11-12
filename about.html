@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>Sudhanshu Shekhar</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img\core-img\logo2.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+    <!-- Top Search Form Area -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alimeNav">
+                        <!-- Logo -->
+                        <a class="nav-brand" href="./index.html">
+                            <script data-pagespeed-no-defer>
+                                //<![CDATA[
+                                     (function() {
+                                    for (var g = "function" == typeof Object.defineProperties ? Object.defineProperty : function(b, c, a) {
+                                            if (a.get || a.set) throw new TypeError("ES3 does not support getters and setters.");
+                                            b != Array.prototype && b != Object.prototype && (b[c] = a.value)
+                                        }, h = "undefined" != typeof window && window === this ? this : "undefined" != typeof global && null != global ? global : this, k = ["String", "prototype", "repeat"], l = 0; l < k.length - 1; l++) {
+                                        var m = k[l];
+                                        m in h || (h[m] = {});
+                                        h = h[m]
+                                    }
+                                    var n = k[k.length - 1],
+                                        p = h[n],
+                                        q = p ? p : function(b) {
+                                            var c;
+                                            if (null == this) throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");
+                                            c = this + "";
+                                            if (0 > b || 1342177279 < b) throw new RangeError("Invalid count value");
+                                            b |= 0;
+                                            for (var a = ""; b;)
+                                                if (b & 1 && (a += c), b >>>= 1) c += c;
+                                            return a
+                                        };
+                                    q != p && null != q && g(h, n, {
+                                        configurable: !0,
+                                        writable: !0,
+                                        value: q
+                                    });
+                                    var t = this;
+
+                                    function u(b, c) {
+                                        var a = b.split("."),
+                                            d = t;
+                                        a[0] in d || !d.execScript || d.execScript("var " + a[0]);
+                                        for (var e; a.length && (e = a.shift());) a.length || void 0 === c ? d[e] ? d = d[e] : d = d[e] = {} : d[e] = c
+                                    };
+
+                                    function v(b) {
+                                        var c = b.length;
+                                        if (0 < c) {
+                                            for (var a = Array(c), d = 0; d < c; d++) a[d] = b[d];
+                                            return a
+                                        }
+                                        return []
+                                    };
+
+                                    function w(b) {
+                                        var c = window;
+                                        if (c.addEventListener) c.addEventListener("load", b, !1);
+                                        else if (c.attachEvent) c.attachEvent("onload", b);
+                                        else {
+                                            var a = c.onload;
+                                            c.onload = function() {
+                                                b.call(this);
+                                                a && a.call(this)
+                                            }
+                                        }
+                                    };
+                                    var x;
+
+                                    function y(b, c, a, d, e) {
+                                        this.h = b;
+                                        this.j = c;
+                                        this.l = a;
+                                        this.f = e;
+                                        this.g = {
+                                            height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight,
+                                            width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+                                        };
+                                        this.i = d;
+                                        this.b = {};
+                                        this.a = [];
+                                        this.c = {}
+                                    }
+
+                                    function z(b, c) {
+                                        var a, d, e = c.getAttribute("data-pagespeed-url-hash");
+                                        if (a = e && !(e in b.c))
+                                            if (0 >= c.offsetWidth && 0 >= c.offsetHeight) a = !1;
+                                            else {
+                                                d = c.getBoundingClientRect();
+                                                var f = document.body;
+                                                a = d.top + ("pageYOffset" in window ? window.pageYOffset : (document.documentElement || f.parentNode || f).scrollTop);
+                                                d = d.left + ("pageXOffset" in window ? window.pageXOffset : (document.documentElement || f.parentNode || f).scrollLeft);
+                                                f = a.toString() + "," + d;
+                                                b.b.hasOwnProperty(f) ? a = !1 : (b.b[f] = !0, a = a <= b.g.height && d <= b.g.width)
+                                            }
+                                        a && (b.a.push(e), b.c[e] = !0)
+                                    }
+                                    y.prototype.checkImageForCriticality = function(b) {
+                                        b.getBoundingClientRect && z(this, b)
+                                    };
+                                    u("pagespeed.CriticalImages.checkImageForCriticality", function(b) {
+                                        x.checkImageForCriticality(b)
+                                    });
+                                    u("pagespeed.CriticalImages.checkCriticalImages", function() {
+                                        A(x)
+                                    });
+
+                                    function A(b) {
+                                        b.b = {};
+                                        for (var c = ["IMG", "INPUT"], a = [], d = 0; d < c.length; ++d) a = a.concat(v(document.getElementsByTagName(c[d])));
+                                        if (a.length && a[0].getBoundingClientRect) {
+                                            for (d = 0; c = a[d]; ++d) z(b, c);
+                                            a = "oh=" + b.l;
+                                            b.f && (a += "&n=" + b.f);
+                                            if (c = !!b.a.length)
+                                                for (a += "&ci=" + encodeURIComponent(b.a[0]), d = 1; d < b.a.length; ++d) {
+                                                    var e = "," + encodeURIComponent(b.a[d]);
+                                                    131072 >= a.length + e.length && (a += e)
+                                                }
+                                            b.i && (e = "&rd=" + encodeURIComponent(JSON.stringify(B())), 131072 >= a.length + e.length && (a += e), c = !0);
+                                            C = a;
+                                            if (c) {
+                                                d = b.h;
+                                                b = b.j;
+                                                var f;
+                                                if (window.XMLHttpRequest) f = new XMLHttpRequest;
+                                                else if (window.ActiveXObject) try {
+                                                    f = new ActiveXObject("Msxml2.XMLHTTP")
+                                                } catch (r) {
+                                                    try {
+                                                        f = new ActiveXObject("Microsoft.XMLHTTP")
+                                                    } catch (D) {}
+                                                }
+                                                f && (f.open("POST", d + (-1 == d.indexOf("?") ? "?" : "&") + "url=" + encodeURIComponent(b)), f.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), f.send(a))
+                                            }
+                                        }
+                                    }
+
+                                    function B() {
+                                        var b = {},
+                                            c;
+                                        c = document.getElementsByTagName("IMG");
+                                        if (!c.length) return {};
+                                        var a = c[0];
+                                        if (!("naturalWidth" in a && "naturalHeight" in a)) return {};
+                                        for (var d = 0; a = c[d]; ++d) {
+                                            var e = a.getAttribute("data-pagespeed-url-hash");
+                                            e && (!(e in b) && 0 < a.width && 0 < a.height && 0 < a.naturalWidth && 0 < a.naturalHeight || e in b && a.width >= b[e].o && a.height >= b[e].m) && (b[e] = {
+                                                rw: a.width,
+                                                rh: a.height,
+                                                ow: a.naturalWidth,
+                                                oh: a.naturalHeight
+                                            })
+                                        }
+                                        return b
+                                    }
+                                    var C = "";
+                                    u("pagespeed.CriticalImages.getBeaconData", function() {
+                                        return C
+                                    });
+                                    u("pagespeed.CriticalImages.Run", function(b, c, a, d, e, f) {
+                                        var r = new y(b, c, a, e, f);
+                                        x = r;
+                                        d && w(function() {
+                                            window.setTimeout(function() {
+                                                A(r)
+                                            }, 0)
+                                        })
+                                    });
+                                })();
+                                pagespeed.CriticalImages.Run('/mod_pagespeed_beacon', 'https://www.instagram.com/artist_sudhanshushekhar/', 'oJcOUTg7z9', true, false, '0w0cXySpLQ0');
+                                //]]>
+                            </script><img src="img\core-img\logo2.png" alt="" data-pagespeed-url-hash="2210110232" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Menu Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./index.html">- Home</a></li>
+                                            <li><a href="./about.html">- About</a></li>
+                                            <li><a href="./gallery.html">- Gallery</a></li>
+                                            <li><a href="./blog.html">- Blog</a></li>
+                                            <li><a href="./contact.html">- Contact</a></li>
+                                           
+                                                
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="active"><a href="./about.html">About</a></li>
+                                    <li><a href="./gallery.html">Gallery</a></li>
+                                    <li><a href="./blog.html">Blog</a></li>
+                                    <li><a href="./contact.html">Contact</a></li>
+                                </ul>
+                                <!-- Search Icon -->
+                                <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+    <!-- Breadcrumb Area Start -->
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(33.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">                
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2 class="page-title">About Me</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html"><i class="icon_house_alt"></i> Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">About</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Area End -->
+    <!-- About Us Area Start -->
+    <div class="about-us-area section-padding-80-0 clearfix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="about-us-content mb-80">
+                        <h3 class="wow fadeInUp" data-wow-delay="100ms">I Live For Passion</h3>
+                        <div class="line wow fadeInUp" data-wow-delay="200ms"></div>
+                        <p class="wow fadeInUp" data-wow-delay="300ms">I am the national winner at INTACH art and essay competition ,and I am state winner for three times.I have taken my art certification from pracheen kala kendra,for 4 years verified.I had done a certification course of Robotics at apptronics.I had my international art exhibition at new Delhi.I love chess and cricket the most,and love venturing to the facts of space science and technology.I love to read books.</p>
+                        <p class="wow fadeInUp" data-wow-delay="400ms">Adding to that..I was an active participant in quiz competition and won several honours on Bihar diwas,recently I cleared jee main paper 2with nirf-56.
+                            I love helping people to create their own brand and start their earning status.I am an advisor and help people to start supervising over the social media with their skill,and just guide them. Suitable platform to grow.
+                            And currently I am practising digital Marketting,and learning varuiue aspects of it ,trying my hands on blogging.I am presently persuing architecture,and putting my hands on cretivity,and artistic skills.</p>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="mailto:shekharsudhanshuapril02@gmail.com">Contact Me Through Gmail</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="about-video-area mb-80 wow fadeInUp" data-wow-delay="100ms">
+                        <img src="img about\bg-img\ssud2.jpg" alt="" data-pagespeed-url-hash="4121162625" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        <div class="video-icon">
+                            <a href="https://www.instagram.com/tv/CHIU4JMjO0d/?utm_source=ig_web_copy_link" class="video-play-btn"><i class="arrow_triangle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us Area End -->
+    <!-- Why Choose Us Area Start -->
+    <section class="why-choose-us-area bg-gray section-padding-80-0 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                        <h2>What I am</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Single Why Choose Area -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-choose-us-content text-center mb-80 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="chosse-us-icon">
+                            <i class="fa fa-film" aria-hidden="true"></i>
+                        </div>
+                        <h4>ᐯIᗪᗴOᗴᗪITOᖇ</h4>
+                        <p>I Just Love Editing Videos it Is Not My Full Time JOb, As It Is My Hobbie Only </p>
+                    </div>
+                </div>
+                <!-- Single Why Choose Area -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-choose-us-content text-center mb-80 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="chosse-us-icon">
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                        </div>
+                        <h4>🅑︎🅛︎🅞︎🅖︎🅖︎🅔︎🅡︎</h4>
+                        <p>I Love Reading Books And I Just Want That Those Who Not Have Much Time To Read Book Can Read My Blog As I Write Summary Of Books By Mixing My Thought </p>
+                    </div>
+                </div>
+                <!-- Single Why Choose Area -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-choose-us-content text-center mb-80 wow fadeInUp" data-wow-delay="500ms">
+                        <div class="chosse-us-icon">
+                            <i class="fa fa-camera" aria-hidden="true"></i>
+                        </div>
+                        <h4>🅰︎🆁︎🆃︎🅸︎🆂︎🆃︎</h4>
+                        <p>I Started Painting When I Was Of 12 Year, And Now Painting Became My Love. People Says My Painting Is Great. It Is Because My Painting Contains 1% Talent And 99% Hard Work  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose  us Area End -->
+    <!-- Our Team Area Start -->
+    <section class="our-team-area section-padding-80-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                        <h2>My Achivments</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Team Member Area -->
+                <div class="col-md-6 col-xl-3">
+                    <div class="team-content-area text-center mb-30 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="member-thumb">
+                            <img src="img about\bg-img\sud certificate4(200).jpg" alt="" data-pagespeed-url-hash="415195171" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                        <h5>Robotics</h5>
+                        <span>Embeded System With Robotics</span>
+                        <div class="hover-content">
+                            <a href="img about\bg-img\sud certificate4.jpg" class="portfolio-img">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member Area -->
+                <div class="col-md-6 col-xl-3">
+                    <div class="team-content-area text-center mb-30 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="member-thumb">
+                            <img src="img about\bg-img\sud certificate3(200).jpg" alt="" data-pagespeed-url-hash="1984447165" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                        <h5>INTACH</h5>
+                        <span>National Winner</span>
+                        <div class="hover-content">
+                            <a href="img about\bg-img\sud certificate3.jpg" class="portfolio-img">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member Area -->
+                <div class="col-md-6 col-xl-3">
+                    <div class="team-content-area text-center mb-30 wow fadeInUp" data-wow-delay="500ms">
+                        <div class="member-thumb">
+                            <img src="img about\bg-img\sud certificate(200).jpg" alt="" data-pagespeed-url-hash="2278947086" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                        <h5>Colouring Contest</h5>
+                        <span>State Level Winner</span>
+                        <div class="hover-content">
+                            <a href="img about\bg-img\sud certificate.jpg" class="portfolio-img">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member Area -->
+                <div class="col-md-6 col-xl-3">
+                    <div class="team-content-area text-center mb-30 wow fadeInUp" data-wow-delay="700ms">
+                        <div class="member-thumb">
+                            <img src="img about\bg-img\sud certificate 2(200).jpg" alt="" data-pagespeed-url-hash="2573447007" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                        <h5>Satyam Sanskar Samman</h5>
+                        <span>International Winner</span>
+                        <div class="hover-content">
+                            <a href="img about\bg-img\sud certificate 2.jpg" class="portfolio-img">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Team Area End -->
+    <!-- Follow Area Start -->
+    <div class="follow-area clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Follow On Instagram</h2>
+                        <p>@artist_sudhanshushekhar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Instagram Feed Area -->
+        <div class="instragram-feed-area owl-carousel">
+            <!-- Single Instagram Item -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/11.jpg" alt="" data-pagespeed-url-hash="2354163099" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="https://www.instagram.com/artist_sudhanshushekhar/">
+<i class="ti-instagram" aria-hidden="true"></i>
+<span>@artist_sudhanshushekhar</span>
+</a>
+                </div>
+            </div>
+            <!-- Single Instagram Item -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/12.jpg" alt="" data-pagespeed-url-hash="2648663020" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="https://www.instagram.com/artist_sudhanshushekhar/">
+<i class="ti-instagram" aria-hidden="true"></i>
+<span>@artist_sudhanshushekhar</span>
+</a>
+                </div>
+            </div>
+            <!-- Single Instagram Item -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/13.jpg" alt="" data-pagespeed-url-hash="2943162941" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="https://www.instagram.com/artist_sudhanshushekhar/">
+<i class="ti-instagram" aria-hidden="true"></i>
+<span>@artist_sudhanshushekhar</span>
+</a>
+                </div>
+            </div>
+            <!-- Single Instagram Item -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/14.jpg" alt="" data-pagespeed-url-hash="3237662862" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="https://www.instagram.com/artist_sudhanshushekhar/">
+<i class="ti-instagram" aria-hidden="true"></i>
+<span>@artist_sudhanshushekhar</span>
+</a>
+                </div>
+            </div>
+            <!-- Single Instagram Item -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/15.jpg" alt="" data-pagespeed-url-hash="3532162783" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="https://www.instagram.com/artist_sudhanshushekhar/">
+<i class="ti-instagram" aria-hidden="true"></i>
+<span>@artist_sudhanshushekhar</span>
+</a>
+                </div>
+            </div>
+            <!-- Single Instagram Item -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/16.jpg" alt="" data-pagespeed-url-hash="3826662704" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="https://www.instagram.com/artist_sudhanshushekhar/">
+<i class="ti-instagram" aria-hidden="true"></i>
+<span>@artist_sudhanshushekhar</span>
+</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Follow Area End -->
+    <!-- Footer Area Start -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content d-flex align-items-center justify-content-between">
+                        <!-- Copywrite Text -->
+                        <div class="copywrite-text">
+                            <p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved | This Website Is Made <i class="fa fa-heart-o" aria-hidden="true"></i> By <a href="https://www.instagram.com/vedprakashhimanshu/" target="_blank">Ved Prakash</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                        <!-- Footer Logo -->
+                        <div class="footer-logo">
+                            <a href="#"><img src="img/core-img/logo2.png" alt="" data-pagespeed-url-hash="2791292580" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                        </div>
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="https://www.facebook.com/profile.php?id=100056069807693"><i class="ti-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="ti-twitter-alt" aria-hidden="true"></i></a>
+                            <a href="#"><i class="ti-linkedin" aria-hidden="true"></i></a>
+                            <a href="#"><i class="ti-pinterest" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js.pagespeed.jm.pJg2D_p7ze.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js+bootstrap.min.js.pagespeed.jc.GVX22ixLAM.js"></script>
+    <script>
+        eval(mod_pagespeed_2mSwO3vn68);
+    </script>
+    <!-- Bootstrap -->
+    <script>
+        eval(mod_pagespeed_aQrG1NKKxL);
+    </script>
+    <!-- All Plugins -->
+    <script src="js/alime.bundle.js.pagespeed.jm._k4LjN7brB.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js.pagespeed.jm.9aSCCz8mr9.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-23581568-13');
+    </script>
+</body>
+
+</html>
